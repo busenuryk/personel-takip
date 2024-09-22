@@ -7,7 +7,7 @@ const User = () => {
             
             <div>
                 <h3 className='font-semibold text-2xl'>Jhon Doe</h3>
-                <p>Developer</p>
+                <p>Yazılım Geliştirici</p>
             </div>
             
         </div>

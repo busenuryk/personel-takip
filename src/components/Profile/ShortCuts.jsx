@@ -3,31 +3,28 @@ import {FaClipboardCheck, FaRegRectangleList, FaAnglesDown, FaBarsProgress} from
 
 const ShortCuts = () => {
     return(
-        <div className="flex felx-col gap-4 bg-white rounded-lg p-4 dark:bg-gray-600"> 
-            <Title>ShortCuts</Title>
-            <div className='flex justify-between items-center cursor-pointer rounded-sm'>
-                <ul className='flex gap-4 items-center'>
-                    <li className='bg-blue-100 p-2 rounded-full w-8 h-8 flex items-center justify-center dark:bg-gray-800 dark:text-gray-300'>
+        <div className="flex flex-col justify-between gap-4 bg-white rounded-lg p-4 dark:bg-gray-600"> 
+            <div className='flex flex-col justify-between items-center cursor-pointer rounded-sm'>
+                    <div className='bg-blue-100 p-2 rounded-lg h-8 flex items-center dark:bg-gray-800 dark:text-gray-300 w-full'>
                         <GoGoal/>
-                        <a href="font-medium dark:text-gray-300">Goals</a>
-                        <FaAnglesDown className='bg-gray-300 p-2 rounded-md dark:bg-gray-700 dark:text-gray-300 hover:mr-3 transition-all duration-500'/>
-                    </li>
-                    <li className='bg-blue-100 p-2 rounded-full w-8 h-8 flex items-center justify-centerdark:bg-gray-800 dark:text-gray-300'>
+                        <a href="#"className="p-4 font-medium dark:text-gray-300">Yapılacaklar</a>
+                    </div>
+
+                    <div className='bg-blue-100 p-2 rounded-lg h-8 flex items-center dark:bg-gray-800 dark:text-gray-300 w-full'>
                         <FaClipboardCheck/>
-                        <a href="font-medium dark:text-gray-300">Plan</a>
-                        <FaAnglesDown className='bg-gray-300 p-2 rounded-md dark:bg-gray- dark:text-gray-300 hover:mr-3 transition-all duration-500'/>
-                    </li>
-                    <li className='bg-blue-100 p-2 rounded-full w-8 h-8 flex items-center justify-center dark:bg-gray-800 dark:text-gray-300'>
+                        <a href="#"className="p-4 font-medium dark:text-gray-300">Planlar</a>
+                    </div>
+
+                    <div className='bg-blue-100 p-2 rounded-lg h-8 flex items-center dark:bg-gray-800 dark:text-gray-300 w-full'>
                         <FaBarsProgress/>
-                        <a href="font-medium dark:text-gray-300">Stats</a>
-                        <FaAnglesDown className='bg-gray-300 p-2 rounded-md dark:bg-gray-700 dark:text-gray-300 hover:mr-3 transition-all duration-500'/>
-                    </li>
-                    <li className='bg-blue-100 p-2 rounded-full w-8 h-8 flex items-center justify-center dark:bg-gray-800 dark:text-gray-300'>
+                        <a href="#"className="p-4 font-medium dark:text-gray-300">Proje Durumu</a>
+                    </div>
+
+                    <div className='bg-blue-100 p-2 rounded-lg h-8 flex items-center dark:bg-gray-800 dark:text-gray-300 w-full'>
                         <FaRegRectangleList/>
-                        <a href="font-medium dark:text-gray-300">Detail</a>
-                        <FaAnglesDown className='bg-gray-300 p-2 rounded-md dark:bg-gray-700 dark:text-gray-300 hover:mr-3 transition-all duration-500'/>
-                    </li>
-                </ul>
+                        <a href="#"className="p-4 font-medium dark:text-gray-300">Detaylar</a>
+                    </div>
+
             </div>
         </div>
     )
